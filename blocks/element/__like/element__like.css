@@ -1,0 +1,24 @@
+.element__like {
+    background-image: url('../../../../mesto/images/VectorСердце.svg');
+    width: 22px;
+    height: 19px;
+    border: none;
+    margin: 31px 30px 30px 0;
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-area: like;
+    justify-self: end;
+  }
+
+  @media screen and (max-width: 980px) {
+    .element__like {
+      margin-top: 0;
+      align-self: center;
+    }
+  }
+  
+  .element__like:active {
+    opacity: 1;
+    background-image: url('../../../../mesto/images/Union.svg');
+  }

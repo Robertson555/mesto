@@ -1,0 +1,23 @@
+{
+  "name": "mesto",
+  "version": "1.0.0",
+  "description": "Картинки",
+  "main": "script.js",
+  "scripts": {
+    "start": "css-to-bem-file-structure style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertson555/mesto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robertson555/mesto/issues"
+  },
+  "homepage": "https://github.com/Robertson555/mesto#readme",
+  "devDependencies": {
+    "css-to-bem-file-structure": "0.0.2"
+  }
+}

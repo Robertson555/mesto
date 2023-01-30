@@ -1,0 +1,39 @@
+@import url('../../mesto/vendor/normalize.css');
+@import url('../../mesto/vendor/fonts/fonts.css');
+
+@import url('../../mesto/blocks/page/page.css');
+
+@import url('../../mesto/blocks/header/header.css');
+@import url('../../mesto/blocks/header/__logo/header__logo.css');
+
+@import url('../../mesto/blocks/content/content.css');
+
+@import url('../../mesto/blocks/profile/profile.css');
+@import url('../../mesto/blocks/profile/__avatar/profile__avatar.css');
+@import url('../../mesto/blocks/profile/__info/profile__info.css');
+@import url('../../mesto/blocks/profile/__name/profile__name.css');
+@import url('../../mesto/blocks/profile/__discription/profile__discription.css');
+@import url('../../mesto/blocks/profile/__button/profile__button.css');
+@import url('../../mesto/blocks/profile/__button/_act/profile__button_act_edit.css');
+@import url('../../mesto/blocks/profile/__button/_act/profile__button_act_add.css');
+
+@import url('../../mesto/blocks/button/button.css');
+
+@import url('../../mesto/blocks/elements/elements.css');
+
+@import url('../../mesto/blocks/element/element.css');
+@import url('../../mesto/blocks/element/__picture/element__picture.css');
+@import url('../../mesto/blocks/element/__title/element__title.css');
+@import url('../../mesto/blocks/element/__like/element__like.css');
+
+@import url('../../mesto/blocks/footer/footer.css');
+@import url('../../mesto/blocks/footer/__copyright/footer__copyright.css');
+
+@import url('../../mesto/blocks/popup/popup.css');
+@import url('../../mesto/blocks/popup/__container/popup__container.css');
+@import url('../../mesto/blocks/popup/__title/popup__title.css');
+@import url('../../mesto/blocks/popup/__input/popup__input.css');
+@import url('../../mesto/blocks/popup/__button/popup__button.css');
+@import url('../../mesto/blocks/popup/__button/_act/popup__button_act_submit.css');
+@import url('../../mesto/blocks/popup/__button/_act/popup__button_act_exit.css');
+@import url('../../mesto/blocks/popup/__opened/popup__opened.css');

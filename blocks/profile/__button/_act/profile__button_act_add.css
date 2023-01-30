@@ -1,0 +1,30 @@
+.profile__button_act_add {
+    width: 150px;
+    height: 50px;
+    background-image: url('../../../../../mesto/images/VectorПлюс.svg');
+    background-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    justify-self: flex-end;
+    margin-left: auto;
+  }
+
+  @media screen and (max-width: 980px) {
+    .profile__button_act_add{
+      width: 20%;
+      background-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 685px) {
+    .profile__button_act_add {
+      width: 100%;
+      margin-top: 36px;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .profile__button_act_add {
+      max-width: 282px;
+    }
+  }
