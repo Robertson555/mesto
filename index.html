@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="../mesto/pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Место</title>
-</head>
-<body class="page">
+  </head>
+  <body class="page">
     <header class="header">
-        <div class="header__logo"></div>
-    </header>    
-<main class="content">
-    <section class="profile">
+      <div class="header__logo"></div>
+    </header>
+    <main class="content">
+      <section class="profile">
         <img src="../mesto/images/ЖИК.jpg" class="profile__avatar" alt="Фото Жак-Ив Кусто">
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
@@ -53,20 +53,19 @@
           <button class="button element__like" type="button"></button>
         </div>
       </section>
-</main>
-<footer class="footer">
-    <p class="footer__copyright">© 2023 Mesto Russia</p>
-  </footer>
-  <div class="popup">
-    <form class="popup__container" method="post" name="form-popup">
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2023 Mesto Russia</p>
+    </footer>
+    <div class="popup">
+      <form class="popup__container" method="post" name="form-popup">
         <h2 class="popup__title">Редактировать профиль</h2>
         <input name="name-input" value="" class="popup__input popup__input_name" type="text" placeholder="Имя">
         <input name="job-input" value="" class="popup__input popup__input_job" type="text" placeholder="Описание">
         <button class="popup__button popup__button_act_submit" type="submit" value="save">Сохранить</button>
         <button class="popup__button popup__button_act_exit" type="button" value="close">Закрыть</button>
-    </form>
-</div>
-
-  <script src="../mesto/script.js"></script>
-</body>
+      </form>
+    </div>
+    <script src="../mesto/script.js"></script>
+  </body>
 </html>
