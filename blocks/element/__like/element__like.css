@@ -1,5 +1,5 @@
 .element__like {
-    background-image: url('../../../../mesto/images/VectorСердце.svg');
+    background-image: url('../../../images/VectorСердце.svg');
     width: 22px;
     height: 19px;
     border: none;
@@ -20,5 +20,5 @@
   
   .element__like:active {
     opacity: 1;
-    background-image: url('../../../../mesto/images/Union.svg');
+    background-image: url('../../../images/Union.svg');
   }
