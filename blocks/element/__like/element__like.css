@@ -22,3 +22,8 @@
     opacity: 0.5;
     background-image: url('../../../images/Union.svg');
   }
+
+  .element__like:hover {
+    opacity: .5;
+    cursor: pointer;
+  }
